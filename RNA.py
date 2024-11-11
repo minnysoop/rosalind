@@ -1,4 +1,4 @@
-code = open("./data/rosalind_dna.txt", "r")
+code = open('./data/rosalind_rna.txt', 'r')
 code = code.read()
-a,c,g,t = code.count('A'), code.count('C'), code.count('G'), code.count('T')
-print(a,c,g,t)
+rna = code.replace('T', 'U')
+print(rna)
